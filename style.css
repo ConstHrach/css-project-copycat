@@ -1,0 +1,300 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header .top-bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header .top-menu ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+header .menu-options {
+    padding-right: 2rem;
+}
+
+header .left-nav {
+    padding: 2.5rem 0 0.5rem 0;
+    display: flex;
+    /* display: none; */
+}
+
+header .brand-logo img {
+    width: 100%;
+    height: 80%;
+    padding-top: 1.5rem;
+}
+
+header .brand-logo {
+    display: flex;
+}
+
+header .hero img {
+    width: 100%;
+    height: 50vh;
+    padding-top: 1rem;
+}
+
+header .currency-dropdown,
+.search-button {
+    padding: 2.5rem 1rem 1rem 0.5rem;
+    color: red;
+    font-size: 0.8rem;
+}
+
+header select {
+    background-color: white;
+    border-style: none;
+    color: red;
+}
+
+header .cart-button {
+    padding: 2.5rem 1rem 1rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+header .right-nav {
+    display: flex;
+    /* display: none; */
+}
+
+header section {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-top: -15px;
+}
+
+header .hero {
+    width: 100%;
+}
+
+main .brand-image img {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .brand-blurb {
+    width: 50vw;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+main .pc-description {
+    display: flex;
+    flex-direction: row;
+}
+
+main .brand-blurb h1 {
+    font-size: 0.8rem;
+}
+
+main .brand-blurb h2 {
+    font-size: 1.4rem;
+}
+
+main .brand-blurb p {
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+main .shop-rdy-series a,
+.shop-rdy-series p {
+    padding: 1rem 0;
+}
+
+main .shop-rdy h3,
+.shop-rdy h4 {
+    text-align: center;
+}
+
+main .shop-rdy h3 {
+    font-size: small;
+    padding: 1rem;
+}
+
+main .shop-rdy h4 {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+main .series-rdy-box-1,
+.series-rdy-box-2 {
+    width: 80%;
+    height: 80%;
+}
+
+main .series-rdy-box-bundle {
+    width: 80%;
+    height: 80%;
+}
+
+main .shop-rdy-1,
+.shop-rdy-2,
+.shop-rdy-bundle {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .shop-rdy-series {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main hr {
+    border: 1px solid rgb(173, 173, 173);
+}
+
+main .view-product-button {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+main button {
+    background-color: #d8fe3c;
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+    border: 1px solid #d8fe3c;
+}
+
+main .instagram-cta {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #f94c43;
+}
+
+footer .ibp-logo {
+    padding-left: 1.5rem;
+}
+
+footer .brand-marketing-blurb p {
+    color: white;
+    padding: 1rem 15rem 1rem 3rem;
+}
+
+footer .instagram-logo {
+    padding: 0 2rem;
+}
+
+footer p,
+.currency-dropdown {
+    color: white;
+}
+
+footer select {
+    background-color: #f94c43;
+    color: white;
+    border: 1px solid #f94c43;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+footer form input {
+    background-color: #f94c43;
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+footer button {
+    background-color: #d8fe3c;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    border: 1px solid #d8fe3c;
+    display: flex;
+    align-self: center;
+}
+
+footer .marketing-column {
+    padding: 0 0 8rem 3rem;
+    width: 60%;
+    height: 20%;
+}
+
+footer .support-column {
+    margin-top: 2rem;
+    padding-left: 6rem;
+    width: 30%;
+    height: 20%;
+    flex-direction: column;
+}
+
+footer .company-column {
+    margin-top: 2rem;
+    width: 30%;
+    height: 20%;
+    padding-left: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .email-column {
+    margin-top: 2rem;
+    width: 30%;
+    height: 20%;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .currency-dropdown,
+.copyright-ibp {
+    font-size: 0.7rem;
+    padding-bottom: 1.5rem;
+}
+
+footer .bottom-row {
+    padding: 0 0 1rem 5rem;
+}
+
+@media (min-width: 600px) {
+    main .brand-image img {
+        padding: 5rem 1rem;
+        display: flex;
+        align-self: center;
+    }
+
+    main .brand-blurb {
+        padding: 2rem;
+    }
+}
